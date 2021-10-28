@@ -1,0 +1,13 @@
+body {
+  --bgColor : #2e2d3d;
+  --secondColor: rgb(156, 255, 250);
+  --thirdColor: #c5c5c5;
+  overflow: hidden;
+
+  
+}
+
+.App_body {
+  display: flex;
+  height: 92vh;
+}

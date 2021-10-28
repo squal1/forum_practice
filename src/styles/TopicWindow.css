@@ -1,0 +1,31 @@
+.topic_window{
+    flex: 1;
+    max-height: 92vh;
+    background-color: var(--thirdColor);
+    z-index: 0;
+}
+
+.topic_header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 16px;
+    background-color: var(--bgColor);
+    border-radius: 20px;
+    color: var(--thirdColor);
+    justify-content: space-between;
+}
+
+.topic_header > h2{
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.topic_header > h5{
+    font-size: small;
+}
+
+.addRoundedIcon:hover{
+    
+    color: var(--secondColor);
+}

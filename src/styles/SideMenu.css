@@ -1,0 +1,12 @@
+.Menu {
+    position: fixed;
+    height: 100%; /* 100% Full-height */
+    width: 350px; /* 0 width - change this with JavaScript */
+    z-index: 1000; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: var(--thirdColor); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 30px; /* Place content 60px from the top */
+    transition: 0.5s;
+}

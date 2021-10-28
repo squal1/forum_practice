@@ -1,0 +1,50 @@
+.sidebar{
+    color: var(--thirdColor);
+    background-color: var(--bgColor); 
+    max-width: 350px;
+    z-index: 0;
+}
+
+.sidebar_header{
+    display: flex;
+    border-bottom: solid 1px #c5c5c5;
+    padding-bottom: 10px;
+    padding: 13px;
+}
+
+.sidebar_header > h2{
+    display: flex;
+    align-self:center;
+    padding: 10px;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+.create_icon{
+    padding: 3px;
+    align-self:center;
+    margin-left: auto;
+    color: var(--bgColor);
+    background-color: var(--thirdColor);
+    border-radius: 999px;
+    
+}
+
+.create_icon:hover{
+    background-color: var(--secondColor);
+}
+
+.side_bar_body {
+    overflow-y: scroll;
+    width: auto;
+    background-color: var(--bgColor);
+    min-height: 80vh;
+    max-height: 80vh;
+    scrollbar-width: none;
+}
+
+.side_bar_body > div > a{
+    padding: 25px;
+    background-color: var(--bgColor);
+    color: #c5c5c5;
+}
